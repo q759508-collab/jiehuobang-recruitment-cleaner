@@ -20,7 +20,7 @@ This is a Codex Skill for cleaning Chinese WeChat group recruitment messages int
 ## 能做什么
 
 - 判断消息类型。
-- 提取城市、岗位、薪资、年龄、班次、联系方式。
+- 提取城市、岗位、薪资、年龄、班次、联系人、电话、微信。
 - 识别求职者自荐。
 - 识别招人需求。
 - 识别临时活和接单信息。
@@ -29,6 +29,12 @@ This is a Codex Skill for cleaning Chinese WeChat group recruitment messages int
 - 可选脚本支持拆分文本、校验 JSON、导出 Word 文档。
 - 支持 `job_batch`，一条消息里多个岗位可导出为多行 CSV。
 - 支持基础重复信息识别。
+
+## 联系方式说明
+
+真实业务清洗时默认保留联系方式。招聘广告、劳务发单、名单报备、政策咨询、财务结算、投诉反馈等联系人和手机号都应被提取出来。
+
+本仓库里的样例手机号使用 `13800000000` 演示，是为了避免把真实微信群数据公开到开源仓库，不代表工具会删除真实手机号。
 
 ## 快速使用
 
