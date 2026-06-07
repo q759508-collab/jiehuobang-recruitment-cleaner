@@ -1,0 +1,42 @@
+﻿name: 功能建议
+description: 提出批量、Excel、网页、微信采集等需求
+title: "[功能建议] "
+labels: ["功能建议"]
+body:
+  - type: dropdown
+    id: feature_type
+    attributes:
+      label: 你最需要什么
+      options:
+        - 批量处理
+        - 导出 Excel / CSV
+        - 网页版本
+        - 微信采集
+        - 飞书 / 表格对接
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你的使用场景
+      placeholder: "例如：每天要整理 5 个招聘群，每天大概 100 条信息"
+    validations:
+      required: true
+  - type: textarea
+    id: current_workflow
+    attributes:
+      label: 你现在怎么处理
+      placeholder: "例如：人工复制到 Excel，再手动拆字段"
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你希望工具怎么帮你
+      placeholder: "例如：一键导出城市、岗位、薪资、联系人"
+    validations:
+      required: false
+
+
+

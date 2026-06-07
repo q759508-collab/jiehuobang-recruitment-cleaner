@@ -1,0 +1,53 @@
+﻿name: 信息识别错误反馈
+description: 反馈招聘、求职、招人需求信息清洗错误
+title: "[识别错误] "
+labels: ["识别错误", "样本反馈"]
+body:
+  - type: textarea
+    id: raw_text
+    attributes:
+      label: 脱敏后的原文
+      description: 请先替换真实手机号、微信号、姓名等隐私信息。
+      placeholder: "粘贴脱敏后的微信群或招聘信息"
+    validations:
+      required: true
+  - type: dropdown
+    id: expected_type
+    attributes:
+      label: 你认为它属于哪类
+      options:
+        - 岗位招聘 job
+        - 求职者 candidate
+        - 招人需求 demand
+        - 临时活/接单 gig
+        - 无关 irrelevant
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: wrong_result
+    attributes:
+      label: 当前输出哪里不对
+      placeholder: "例如：年龄识别错、联系方式漏了、风险没提示、类型判断错"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: 你期望怎么整理
+      placeholder: "写出你认为正确的字段或文案"
+    validations:
+      required: false
+  - type: dropdown
+    id: need_batch
+    attributes:
+      label: 你是否需要批量处理或导出 Excel
+      options:
+        - 需要
+        - 暂时不需要
+        - 不确定
+    validations:
+      required: true
+
+
+

@@ -1,0 +1,153 @@
+﻿[
+  {
+    "type": "job_batch",
+    "confidence": 0.9,
+    "raw_text": "千职省外一手企业政策简版，包含湖北联想、泰州蓝思科技、湖北源合达科技，公共政策含税6个点、卡点3天离职无费用、水军/报警/投诉不结费。",
+    "data": {
+      "invoice_tax_policy": "含税6个点",
+      "attendance_policy": "卡点3天离职无费用，当日打卡小时数大于8H视为1天"
+    },
+    "items": [
+      {"title": "湖北联想", "category": "电子厂", "age_min": 18, "age_max": 45, "gender_requirement": "男女不限", "worker_pay": "20元/小时", "supplier_policy": "打卡大于101工时2300+"},
+      {"title": "泰州蓝思科技", "age_min": 18, "age_max": 48, "gender_requirement": "男女不限", "worker_pay": "28/27元", "supplier_policy": "打卡大于70个工时1600+"},
+      {"title": "湖北源合达科技", "age_min": 17, "age_max": 45, "gender_requirement": "男女不限", "worker_pay": "20元/小时", "supplier_policy": "打卡7天2000+"}
+    ],
+    "missing_fields": ["具体岗位", "工作时间", "工作地址", "吃住情况"],
+    "risk_flags": ["投诉不结费", "报警不结费", "水军处理", "开票扣税"],
+    "warnings": ["简版政策信息不足，只适合内部初筛，不能直接作为完整招聘文案发布"]
+  },
+  {
+    "type": "gig",
+    "confidence": 0.9,
+    "raw_text": "长安区飞天路白班保安，周结白班130，保安队长140，报名微信押金10块到了退。",
+    "data": {
+      "title": "长安区飞天路白班保安",
+      "city": "西安",
+      "district": "长安区",
+      "gig_type": "保安周结",
+      "pay_day_shift": 130,
+      "pay_leader": 140,
+      "pay_unit": "天",
+      "settlement": "周结",
+      "age_min": 20,
+      "age_max": 40,
+      "gender_requirement": "男",
+      "height_requirement": "172cm以上",
+      "work_time": "07:30-19:30",
+      "contact_name": "王克亭",
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": [],
+    "risk_flags": ["报名押金10元"],
+    "warnings": ["押金即使声明到场退，也必须人工核实"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.92,
+    "raw_text": "成都大量招聘外卖骑手18-55岁，租车399-599元工资里扣，综合工资6800-15000以上。",
+    "data": {
+      "title": "成都外卖骑手",
+      "city": "成都",
+      "category": "外卖骑手",
+      "age_min": 18,
+      "age_max": 55,
+      "gender_requirement": "男女不限",
+      "pay_min": 5.5,
+      "pay_max": 8,
+      "pay_unit": "单",
+      "monthly_pay_min": 6800,
+      "monthly_pay_max": 15000,
+      "work_content": "通过APP接单、取餐、送餐",
+      "work_time": "三班倒，具体以站点安排为主",
+      "rental_fee": "租车399-599元，工资里扣",
+      "supplier_policy": "市区打卡15天1800+V，郊区1000+V，学生兼职300+V",
+      "contacts": [
+        {"role": "数据名单对接", "name": "香香", "phone": "13800000000"},
+        {"role": "政策咨询", "name": "刘总", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": ["具体站点确认", "租车合同细节"],
+    "risk_flags": ["租车费用", "卡点3天不结算", "水军无费用", "开票扣税"],
+    "warnings": ["骑手收入与单量强相关，综合工资应提示非固定工资"]
+  },
+  {
+    "type": "job_batch",
+    "confidence": 0.88,
+    "raw_text": "渝北周结工，包含压铸工、质检员、机加工，出现2553岁、男1845岁、1811=198、24人/间等疑似粘连格式。",
+    "data": {
+      "title": "渝北周结工",
+      "city": "重庆",
+      "district": "渝北",
+      "settlement": "周结/月结",
+      "benefits": ["包吃2餐", "当天安排宿舍"]
+    },
+    "items": [
+      {"title": "压铸工", "headcount": 10, "age_min": 25, "age_max": 53, "pay_weekly_mode": 200, "pay_monthly_mode": 220},
+      {"title": "质检员", "headcount": 15, "gender_requirement": "男", "age_min": 18, "age_max": 45, "pay_weekly_mode": 180, "pay_monthly_mode": 198},
+      {"title": "机加工", "headcount": 20, "gender_requirement": "男", "age_min": 18, "age_max": 45, "pay_weekly_mode": 180, "pay_monthly_mode": 198}
+    ],
+    "missing_fields": ["企业名称", "具体地址"],
+    "risk_flags": ["不支持送水军", "虚假宣传不结算", "举报扯皮不结算", "学生需提前报备"],
+    "warnings": ["2553岁已按25-53岁识别；男1845岁已按男18-45岁识别；1811=198已按18元/小时*11小时=198元/天识别；24人/间按2-4人/间理解"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.9,
+    "raw_text": "郫都区天味食品厂，女工51岁以下，传统包装车间包装工，含民族限制、健康疾病限制、50.8岁/52.8岁小数年龄。",
+    "data": {
+      "title": "郫都区天味食品厂包装工",
+      "city": "成都",
+      "district": "郫都区",
+      "company": "天味食品厂",
+      "category": "食品厂包装工",
+      "monthly_pay_min": 6000,
+      "monthly_pay_max": 9000,
+      "gender_requirement": "女",
+      "age_note": "51岁以下，50.8岁/52.8岁等小数年龄需保留原文",
+      "work_time": "早7晚7，淡季长白班、旺季两班倒",
+      "benefits": ["住宿免费", "餐补300元/月"],
+      "insurance_fee": "商业保险80元/月，从工资扣除",
+      "supplier_policy": "30元/天+V含税；打卡20天1000+V，48岁以上费用减半",
+      "contacts": [
+        {"role": "名单报备", "name": "蒲老师", "phone": "13800000000"},
+        {"role": "现场接待", "name": "蒲老师", "phone": "13800000000"},
+        {"role": "合作洽谈", "name": "夏经理", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": [],
+    "risk_flags": ["民族限制", "健康疾病限制", "商业保险费用", "开票扣税", "卡点离职无费用"],
+    "warnings": ["50.8岁、52.8岁属于小数年龄表达，应人工确认；民族和疾病限制不宜直接公开发布"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.91,
+    "raw_text": "无锡安井小时工，男18-52岁女18-49岁，20元/小时，240元/天，综合7000-8500，体检自费90元，商保80元/月，含疾病限制。",
+    "data": {
+      "title": "无锡安井小时工",
+      "city": "无锡",
+      "company": "安井",
+      "category": "食品厂小时工",
+      "pay_min": 20,
+      "pay_max": 20,
+      "pay_unit": "小时",
+      "daily_pay": 240,
+      "monthly_pay_min": 7000,
+      "monthly_pay_max": 8500,
+      "age_male": "18-52岁",
+      "age_female": "18-49岁",
+      "benefits": ["包吃包住", "三餐免费", "住宿免费"],
+      "medical_exam_fee": "体检自费90元",
+      "insurance_fee": "商保80元/月",
+      "rebate_policy": "利润30元/天，长期支付",
+      "contacts": [
+        {"role": "合作", "phone": "13800000000"},
+        {"role": "驻厂", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": ["具体地址", "面试时间"],
+    "risk_flags": ["体检自费", "商保费用", "疾病/传染病/骨折/钢钉钢板限制", "区域名额限制"],
+    "warnings": ["健康限制内容应作为人工审核备注，不宜直接面向求职者粗暴展示"]
+  }
+]
+
+

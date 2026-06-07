@@ -1,0 +1,115 @@
+﻿[
+  {
+    "type": "job_batch",
+    "confidence": 0.9,
+    "raw_text": "千职省外一手企业政策简版，包含湖北联想、泰州蓝思科技、湖北源合达科技，公共政策含税6个点、卡点3天离职无费用、水军/报警/投诉不结费。",
+    "data": {
+      "invoice_tax_policy": "含税6个点",
+      "attendance_policy": "卡点3天离职无费用，当日打卡小时数大于8H视为1天"
+    },
+    "items": [
+      {
+        "title": "湖北联想",
+        "category": "电子厂",
+        "age_min": 18,
+        "age_max": 45,
+        "gender_requirement": "男女不限",
+        "worker_pay": "20元/小时",
+        "supplier_policy": "打卡大于101工时2300+"
+      },
+      {
+        "title": "泰州蓝思科技",
+        "age_min": 18,
+        "age_max": 48,
+        "gender_requirement": "男女不限",
+        "worker_pay": "28/27元",
+        "supplier_policy": "打卡大于70个工时1600+"
+      },
+      {
+        "title": "湖北源合达科技",
+        "age_min": 17,
+        "age_max": 45,
+        "gender_requirement": "男女不限",
+        "worker_pay": "20元/小时",
+        "supplier_policy": "打卡7天2000+"
+      }
+    ],
+    "missing_fields": ["具体岗位", "工作时间", "工作地址", "吃住情况"],
+    "risk_flags": ["投诉不结费", "报警不结费", "水军处理", "开票扣税"],
+    "warnings": ["简版政策信息不足，只适合内部初筛，不能直接作为完整招聘文案发布"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.92,
+    "raw_text": "成都大量招聘外卖骑手18-55岁，租车399-599元工资里扣，综合工资6800-15000以上。",
+    "data": {
+      "title": "成都外卖骑手",
+      "city": "成都",
+      "category": "外卖骑手",
+      "age_min": 18,
+      "age_max": 55,
+      "gender_requirement": "男女不限",
+      "pay_min": 5.5,
+      "pay_max": 8,
+      "pay_unit": "单",
+      "monthly_pay_min": 6800,
+      "monthly_pay_max": 15000,
+      "work_content": "通过APP接单、取餐、送餐",
+      "work_time": "三班倒，具体以站点安排为主",
+      "rental_fee": "租车399-599元，工资里扣",
+      "supplier_policy": "市区打卡15天1800+V，郊区1000+V，学生兼职300+V",
+      "contacts": [
+        {"role": "数据名单对接", "name": "香香", "phone": "13800000000"},
+        {"role": "政策咨询", "name": "刘总", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": ["具体站点确认", "租车合同细节"],
+    "risk_flags": ["租车费用", "卡点3天不结算", "水军无费用", "开票扣税"],
+    "warnings": ["骑手收入与单量强相关，综合工资应提示非固定工资"]
+  },
+  {
+    "type": "job_batch",
+    "confidence": 0.88,
+    "raw_text": "渝北周结工，包含压铸工、质检员、机加工，出现2553岁、男1845岁、1811=198、24人/间等劳务群省略写法。",
+    "data": {
+      "title": "渝北周结工",
+      "city": "重庆",
+      "district": "渝北",
+      "settlement": "周结/月结",
+      "benefits": ["包吃2餐", "当天安排宿舍"]
+    },
+    "items": [
+      {
+        "title": "压铸工",
+        "headcount": 10,
+        "age_min": 25,
+        "age_max": 53,
+        "pay_weekly_mode": 200,
+        "pay_monthly_mode": 220
+      },
+      {
+        "title": "质检员",
+        "headcount": 15,
+        "gender_requirement": "男",
+        "age_min": 18,
+        "age_max": 45,
+        "pay_weekly_mode": 180,
+        "pay_monthly_mode": 198
+      },
+      {
+        "title": "机加工",
+        "headcount": 20,
+        "gender_requirement": "男",
+        "age_min": 18,
+        "age_max": 45,
+        "pay_weekly_mode": 180,
+        "pay_monthly_mode": 198
+      }
+    ],
+    "missing_fields": ["企业名称", "具体地址"],
+    "risk_flags": ["不支持送水军", "虚假宣传不结算", "举报扯皮不结算", "学生需提前报备"],
+    "warnings": ["2553岁已按25-53岁识别；男1845岁已按男18-45岁识别；1811=198已按18元/小时*11小时=198元/天识别；24人/间按2-4人/间理解"]
+  }
+]
+
+

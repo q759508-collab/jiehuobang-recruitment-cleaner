@@ -1,0 +1,250 @@
+﻿[
+  {
+    "type": "job",
+    "confidence": 0.94,
+    "raw_text": "昆山伟时电子招聘，16-43周岁，男女不限，员工工资22元/小时，免费三餐，综合工资6000-8000元/月，商业保险130元，三餐+住宿10元/天，水电费平摊，不满7天及旷工自离无工资无费用。",
+    "data": {
+      "title": "昆山伟时电子小时工",
+      "city": "昆山",
+      "company": "昆山伟时电子",
+      "category": "电子厂",
+      "pay_min": 22,
+      "pay_max": 22,
+      "pay_unit": "小时",
+      "monthly_pay_min": 6000,
+      "monthly_pay_max": 8000,
+      "age_min": 16,
+      "age_max": 43,
+      "gender_requirement": "男女不限",
+      "work_hours": "每天记薪11-12小时，每月280-330工时",
+      "benefits": ["免费三餐"],
+      "insurance_fee": "商业保险130元",
+      "accommodation_fee": "三餐+住宿10元/天，水电费平摊",
+      "attendance_policy": "不满7天及旷工自离无工资无费用，做不满月离职下调2元",
+      "supplier_policy": "总价23.5元/小时，支付一年有高必跟，出款需开票"
+    },
+    "missing_fields": ["具体地址", "联系人", "联系方式"],
+    "risk_flags": ["不满7天无工资", "旷工自离无工资", "商业保险费用", "住宿餐费另计", "未成年人用工需核实"],
+    "warnings": ["20周岁以下非学生证明影响工价，需人工核实合规性"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.96,
+    "raw_text": "6月7日 温江正大食品厂，女工25-56岁，普工、操作工、包装工，白班170/天，夜班180/天，8:30-20:30、20:30-8:30两班倒，免费一日三餐包吃住。",
+    "data": {
+      "title": "温江正大食品厂普工操作工包装工",
+      "city": "成都",
+      "district": "温江",
+      "company": "正大食品厂",
+      "category": "食品厂",
+      "desired_jobs": ["普工", "操作工", "包装工"],
+      "pay_day_shift": 170,
+      "pay_night_shift": 180,
+      "pay_unit": "天",
+      "age_min": 25,
+      "age_max": 56,
+      "gender_requirement": "女",
+      "work_time": "08:30-20:30、20:30-08:30两班倒",
+      "benefits": ["免费一日三餐", "包吃住", "当天安排住宿"],
+      "interview_time": "上午10:00",
+      "interview_address": "温江天府街正大食品厂区",
+      "supplier_policy": "打卡10天800+VVV；打卡7天以上20元/天+V，费用连续支付3个月",
+      "contacts": [
+        {"role": "名单报备", "name": "敏大姐", "phone": "13800000000"},
+        {"role": "政策咨询", "name": "周", "phone": "13800000000"},
+        {"role": "异常反馈", "name": "甘", "phone": "13800000000"},
+        {"role": "财务对接", "name": "邓", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": [],
+    "risk_flags": ["身份证复印件和照片要求", "供应商返费政策需核实"],
+    "warnings": ["涉及多个联系人，应按角色保存"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.95,
+    "raw_text": "6月8日 龙泉金之川长白班电子厂，男女不限，18-45岁，18元/小时，综合工资4500-5500，8:00-20:00，包吃一顿，有宿舍，体检费满月报销。",
+    "data": {
+      "title": "龙泉金之川长白班电子厂",
+      "city": "成都",
+      "district": "龙泉",
+      "company": "金之川",
+      "category": "电子厂",
+      "pay_min": 18,
+      "pay_max": 18,
+      "pay_unit": "小时",
+      "monthly_pay_min": 4500,
+      "monthly_pay_max": 5500,
+      "age_min": 18,
+      "age_max": 45,
+      "gender_requirement": "男女不限",
+      "work_time": "08:00-20:00，11小时/天",
+      "benefits": ["包吃一顿", "有宿舍", "可预支200-500"],
+      "medical_exam_fee": "体检费满月报销",
+      "supplier_policy": "打卡20天1000+vvv；2元/小时+V，打卡7天以上返3月",
+      "contacts": [
+        {"role": "名单对接", "name": "任老师", "phone": "13800000000"},
+        {"role": "现场负责", "name": "王老师", "phone": "13800000000"},
+        {"role": "合作联系", "name": "黎老师", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": ["具体面试地址"],
+    "risk_flags": ["体检费需先支付可能性", "不开票扣税3点", "旷自离费用减半"],
+    "warnings": ["原文强调不是流水线、不穿无尘服、可带手机，适合放入岗位卖点"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.94,
+    "raw_text": "芜湖埃易科技电子，16-42岁，男女不限，20元/小时吃住免费，08:30-20:30两班制，商保100元/月，员工出勤不满7天及自离旷离压薪无工资无费用。",
+    "data": {
+      "title": "芜湖埃易科技电子小时工",
+      "city": "芜湖",
+      "company": "埃易科技电子",
+      "category": "电子厂",
+      "pay_min": 20,
+      "pay_max": 20,
+      "pay_unit": "小时",
+      "age_min": 16,
+      "age_max": 42,
+      "gender_requirement": "男女不限",
+      "work_time": "08:30-20:30，两班制",
+      "benefits": ["吃住免费", "免费工作餐", "住宿免费", "可预支"],
+      "insurance_fee": "商保100元/月",
+      "attendance_policy": "出勤不满7天及自离/旷离压薪无工资无费用",
+      "supplier_policy": "供应商利润2.5元/小时，开普票，长期支付"
+    },
+    "missing_fields": ["具体地址", "联系人", "联系方式"],
+    "risk_flags": ["不满7天无工资", "自离旷离无工资", "商保费用", "未成年人用工需核实"],
+    "warnings": ["原文含民族、案底、黑户等敏感条件，发布展示需谨慎"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.95,
+    "raw_text": "涨6.8温江正大食品厂大龄工，25-55岁女工，操作工/普工/包装工，白班170/天，夜班180/天，8:30-20:30、20:30-8:30两班倒，包吃住。",
+    "data": {
+      "title": "温江正大食品厂大龄女工",
+      "city": "成都",
+      "district": "温江",
+      "company": "正大食品厂",
+      "category": "食品厂",
+      "desired_jobs": ["操作工", "普工", "包装工"],
+      "pay_day_shift": 170,
+      "pay_night_shift": 180,
+      "pay_unit": "天",
+      "age_min": 25,
+      "age_max": 55,
+      "gender_requirement": "女",
+      "work_time": "08:30-20:30、20:30-08:30，两班倒",
+      "benefits": ["包三餐", "包住", "当天安排住宿"],
+      "supplier_policy": "打卡10天800+400v；打卡7天以上20元/天+V，支付3个月",
+      "contacts": [
+        {"role": "洽谈合作", "name": "吴老师", "phone": "13800000000"},
+        {"role": "政策咨询", "name": "向老师", "phone": "13800000000"},
+        {"role": "名单报备", "name": "张老师", "phone": "13800000000"}
+      ]
+    },
+    "missing_fields": ["具体面试地址"],
+    "risk_flags": ["不接受卡点及自离", "供应商返费政策需核实"],
+    "warnings": ["20.30-8-30 应识别为 20:30-08:30，原文时间格式异常"]
+  },
+  {
+    "type": "gig",
+    "confidence": 0.93,
+    "raw_text": "吴家山顺丰工资日结，180-205元，中班和夜班多个班次，要求18-54.99岁限男，工作内容小件场地，长期做，提供宿舍。",
+    "data": {
+      "title": "吴家山顺丰日结装车倒包",
+      "city": "武汉",
+      "district": "吴家山",
+      "company": "顺丰",
+      "gig_type": "物流日结",
+      "pay_min": 180,
+      "pay_max": 205,
+      "pay_unit": "天",
+      "age_min": 18,
+      "age_max": 54.99,
+      "gender_requirement": "男",
+      "work_content": "小件场地，倒包，装车",
+      "shifts": [
+        {"time": "12:30-01:30", "job": "倒包", "pay": 195},
+        {"time": "12:30-01:30", "job": "装车", "pay": 205},
+        {"time": "16:00-04:00", "job": "装车", "pay": 190},
+        {"time": "18:00-06:00", "job": "装车", "pay": 190},
+        {"time": "18:00-06:00", "job": "倒包", "pay": 180}
+      ],
+      "benefits": ["日结", "提供宿舍"],
+      "contact_name": "菜菜",
+      "contact_phone": "13800000000",
+      "contact_wechat": "13800000000"
+    },
+    "missing_fields": ["具体集合地址"],
+    "risk_flags": [],
+    "warnings": ["18-54.99岁应保留原文并提示年龄上限格式异常"]
+  },
+  {
+    "type": "job_batch",
+    "confidence": 0.9,
+    "raw_text": "西安中兴、科达利、西安得物、正合芯科、咸阳隆基、高陵瑟福新能源、华天科技、户县延锋、西安市内日结项目，统一报名微信13800000000。",
+    "data": {},
+    "items": [
+      {"title": "西安中兴", "city": "西安", "pay_min": 18, "pay_unit": "小时", "age_min": 18, "age_max": 38, "gender_requirement": "男女不限"},
+      {"title": "高新区长里村科达利", "city": "西安", "district": "高新区", "monthly_pay_min": 5500, "monthly_pay_max": 6000, "age_min": 18, "age_max": 40, "gender_requirement": "男女不限"},
+      {"title": "西安得物", "city": "西安", "monthly_pay_min": 4500, "monthly_pay_max": 8000, "age_min": 18, "age_max": 35, "gender_requirement": "男女不限"},
+      {"title": "正合芯科", "monthly_pay_min": 5500, "monthly_pay_max": 6500, "benefits": ["餐补20元/天", "提供住宿"]},
+      {"title": "咸阳隆基", "city": "咸阳", "monthly_pay_min": 5500, "monthly_pay_max": 7000, "age_min": 18, "age_max": 38, "gender_requirement": "男女不限"},
+      {"title": "高陵瑟福新能源", "district": "高陵", "pay_min": 17, "pay_unit": "小时", "monthly_pay_min": 5000, "monthly_pay_max": 6000, "age_min": 18, "age_max": 40},
+      {"title": "华天科技凤城五路", "monthly_pay_min": 5000, "monthly_pay_max": 7000, "age_min": 18, "age_max": 35, "gender_requirement": "男女不限"},
+      {"title": "户县延锋包覆工", "district": "户县", "pay_min": 20, "pay_unit": "小时", "monthly_pay_min": 6800, "monthly_pay_max": 8500, "age_min": 18, "age_max": 40},
+      {"title": "西安市内日结项目", "city": "西安", "settlement": "日结", "gender_requirement": "男女不限"}
+    ],
+    "missing_fields": ["多数岗位缺具体地址", "多数岗位缺联系人姓名"],
+    "risk_flags": [],
+    "warnings": ["一条原文包含多个岗位，应输出 job_batch；统一报名微信13800000000"]
+  },
+  {
+    "type": "gig",
+    "confidence": 0.9,
+    "raw_text": "长安区飞天路白班保安，周结，白班一天130，保安队长一天140，男，身高172以上，20-40周岁，报名微信押金10块到了退。",
+    "data": {
+      "title": "长安区飞天路白班保安",
+      "city": "西安",
+      "district": "长安区",
+      "gig_type": "保安周结",
+      "pay_day_shift": 130,
+      "pay_leader": 140,
+      "pay_unit": "天",
+      "settlement": "周结",
+      "age_min": 20,
+      "age_max": 40,
+      "gender_requirement": "男",
+      "height_requirement": "172cm以上",
+      "work_time": "07:30-19:30",
+      "work_content": "上下班各站岗1小时，巡逻岗，其余时间坐岗，防火防盗",
+      "contact_name": "王克亭",
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": [],
+    "risk_flags": ["报名押金10元"],
+    "warnings": ["押金即使声明到场退，也必须提示人工核实"]
+  },
+  {
+    "type": "job_batch",
+    "confidence": 0.88,
+    "raw_text": "武汉多岗位批量发单，包含左岭华星光电、光谷联想、光谷富士康、天马、沌口小米汽车、正奥领跑、沌口奔驰、光谷一升光电、光谷电子厂、长光电源，并混入高额补偿志愿者代理信息。",
+    "data": {
+      "mixed_risk_content": true
+    },
+    "items": [
+      {"title": "左岭华星光电", "district": "左岭", "age_min": 18, "age_max": 40, "gender_requirement": "男女不限", "monthly_pay_max": 8500},
+      {"title": "光谷联想电子厂", "district": "光谷", "age_min": 18, "age_max": 45, "gender_requirement": "男女不限", "pay_min": 25, "pay_unit": "小时"},
+      {"title": "光谷富士康电子厂", "district": "光谷", "age_min": 18, "age_max": 45, "gender_requirement": "男女不限", "pay_min": 25, "pay_unit": "小时"},
+      {"title": "天马电子厂", "age_min": 16, "age_max": 40, "monthly_pay_max": 8000},
+      {"title": "沌口小米汽车", "district": "沌口", "age_min": 18, "age_max": 45, "pay_min": 25, "pay_unit": "小时"},
+      {"title": "沌口奔驰汽车厂", "district": "沌口", "age_min": 20, "age_max": 45, "gender_requirement": "男", "monthly_pay_max": 8500}
+    ],
+    "missing_fields": ["多个岗位缺具体地址", "部分岗位缺联系人姓名"],
+    "risk_flags": ["高额补偿志愿者信息混入", "志愿者代理招募", "身体条件筛选", "补偿1-5万上不封顶"],
+    "warnings": ["批量岗位中混入非普通招聘内容，应单独人工审核，不应作为普通岗位发布"]
+  }
+]
+
+

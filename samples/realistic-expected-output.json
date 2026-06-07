@@ -1,0 +1,205 @@
+﻿[
+  {
+    "type": "job",
+    "confidence": 0.95,
+    "raw_text": "【成都急招】\n新都食品厂 包装岗\n女工 18-45岁\n白班 早8点30-晚6点\n工资 180/天，包住不包吃\n联系人：张姐\n电话微信同号：13800000000",
+    "data": {
+      "title": "成都新都食品厂包装女工",
+      "city": "成都",
+      "district": "新都",
+      "category": "食品厂包装岗",
+      "pay_min": 180,
+      "pay_max": 180,
+      "pay_unit": "天",
+      "age_min": 18,
+      "age_max": 45,
+      "gender_requirement": "女",
+      "work_time": "白班 08:30-18:00",
+      "benefits": ["包住", "不包吃"],
+      "contact_name": "张姐",
+      "contact_phone": "13800000000",
+      "contact_wechat": "13800000000"
+    },
+    "missing_fields": ["具体地址"],
+    "risk_flags": [],
+    "warnings": []
+  },
+  {
+    "type": "job",
+    "confidence": 0.9,
+    "raw_text": "🔥🔥高薪急招普工🔥🔥\n月入8000-12000！！！\n包吃包住，名额有限\n先交300服装费，安排进厂\n电话：13800000000",
+    "data": {
+      "title": "高薪急招普工",
+      "category": "普工",
+      "pay_min": 8000,
+      "pay_max": 12000,
+      "pay_unit": "月",
+      "benefits": ["包吃", "包住"],
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": ["城市", "区域", "具体地址", "年龄要求", "工作时间", "招聘主体"],
+    "risk_flags": ["服装费", "高薪夸张", "招聘主体不明"],
+    "warnings": ["原文包含表情和夸张用语，需人工核实真实性"]
+  },
+  {
+    "type": "candidate",
+    "confidence": 0.94,
+    "raw_text": "本人男，36岁，人在重庆九龙坡\n做过叉车，有证\n想找长白班，夜班不考虑\n工资最好6000以上\n微信 aabbcc123",
+    "data": {
+      "city": "重庆",
+      "district": "九龙坡",
+      "age": 36,
+      "gender": "男",
+      "target_type": "找工作",
+      "skills": ["叉车", "有证"],
+      "available_time": "长白班",
+      "expected_pay": "6000以上",
+      "avoid_keywords": ["夜班"],
+      "contact_wechat": "aabbcc123"
+    },
+    "missing_fields": ["姓名", "电话"],
+    "risk_flags": [],
+    "warnings": []
+  },
+  {
+    "type": "demand",
+    "confidence": 0.88,
+    "raw_text": "有没有成都这边能长期招临时工的团队\n每天大概需要20-30人\n主要是分拣、装卸\n日结，男女都要\n有资源的联系王总 13800000000",
+    "data": {
+      "title": "成都长期招临时工团队需求",
+      "city": "成都",
+      "headcount_min": 20,
+      "headcount_max": 30,
+      "required_skills": ["分拣", "装卸"],
+      "pay_unit": "日结",
+      "gender_requirement": "男女不限",
+      "requester_name": "王总",
+      "requester_phone": "13800000000"
+    },
+    "missing_fields": ["具体区域", "具体薪资", "工作时间", "工作地址"],
+    "risk_flags": [],
+    "warnings": ["原文是招人团队需求，不是普通岗位发布"]
+  },
+  {
+    "type": "gig",
+    "confidence": 0.86,
+    "raw_text": "深圳有没有能接企业官网和小程序维护的个人\n不要公司报价，个人长期合作\n按月结算，先看案例\n微信：dev2026",
+    "data": {
+      "title": "深圳企业官网和小程序维护接单",
+      "city": "深圳",
+      "gig_type": "一人公司接单",
+      "required_skills": ["企业官网维护", "小程序维护"],
+      "settlement": "按月结算",
+      "preference_keywords": ["个人长期合作", "先看案例"],
+      "contact_wechat": "dev2026"
+    },
+    "missing_fields": ["预算", "具体工作量", "项目周期"],
+    "risk_flags": [],
+    "warnings": ["原文明确不要公司报价，适合个人接单场景"]
+  },
+  {
+    "type": "gig",
+    "confidence": 0.92,
+    "raw_text": "10月17日成都展会兼职\n需要20人，男女不限\n150一天，包午饭\n早上0830集合\n电话 13800000000",
+    "data": {
+      "title": "成都展会兼职",
+      "city": "成都",
+      "gig_type": "展会兼职",
+      "work_date": "10月17日",
+      "headcount": 20,
+      "gender_requirement": "男女不限",
+      "pay_min": 150,
+      "pay_max": 150,
+      "pay_unit": "天",
+      "benefits": ["包午饭"],
+      "work_time": "08:30集合",
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": ["具体集合地点"],
+    "risk_flags": [],
+    "warnings": ["0830 在集合语境下识别为 08:30"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.93,
+    "raw_text": "武汉电子厂招聘\n18-40周岁\n两班倒\n薪资 5500-6500/月\n包吃住\n李老师 13800000000",
+    "data": {
+      "title": "武汉电子厂招聘",
+      "city": "武汉",
+      "category": "电子厂",
+      "pay_min": 5500,
+      "pay_max": 6500,
+      "pay_unit": "月",
+      "age_min": 18,
+      "age_max": 40,
+      "work_time": "两班倒",
+      "benefits": ["包吃", "包住"],
+      "contact_name": "李老师",
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": ["具体区域", "具体地址", "性别要求"],
+    "risk_flags": [],
+    "warnings": ["18-40周岁应识别为年龄范围，不应合并为1840"]
+  },
+  {
+    "type": "job",
+    "confidence": 0.86,
+    "raw_text": "郑州招客服2名\n女，20-35岁\n早九晚六，月休4天\n4000加提成\n地点：高新区",
+    "data": {
+      "title": "郑州客服招聘",
+      "city": "郑州",
+      "district": "高新区",
+      "category": "客服",
+      "headcount": 2,
+      "pay_min": 4000,
+      "pay_unit": "月",
+      "age_min": 20,
+      "age_max": 35,
+      "gender_requirement": "女",
+      "work_time": "早九晚六，月休4天"
+    },
+    "missing_fields": ["联系人", "联系方式", "公司或招聘主体"],
+    "risk_flags": ["联系方式缺失", "招聘主体不明"],
+    "warnings": ["4000加提成无法确定最高薪资"]
+  },
+  {
+    "type": "candidate",
+    "confidence": 0.82,
+    "raw_text": "找个白班，最好包住，不去电子厂\n本人女，42\n成都这边",
+    "data": {
+      "city": "成都",
+      "age": 42,
+      "gender": "女",
+      "target_type": "找工作",
+      "available_time": "白班",
+      "preference_keywords": ["包住"],
+      "avoid_keywords": ["电子厂"]
+    },
+    "missing_fields": ["姓名", "联系方式", "期望薪资", "具体工种"],
+    "risk_flags": ["联系方式缺失"],
+    "warnings": []
+  },
+  {
+    "type": "gig",
+    "confidence": 0.9,
+    "raw_text": "成都青白江今晚装卸3人，200日结，晚上8点30集合，电话13800000000",
+    "data": {
+      "title": "成都青白江装卸临时工",
+      "city": "成都",
+      "district": "青白江",
+      "gig_type": "装卸临时工",
+      "headcount": 3,
+      "pay_min": 200,
+      "pay_max": 200,
+      "pay_unit": "天",
+      "settlement": "日结",
+      "work_time": "今晚 20:30集合",
+      "contact_phone": "13800000000"
+    },
+    "missing_fields": ["具体集合地点", "联系人"],
+    "risk_flags": [],
+    "warnings": ["晚上8点30识别为20:30"]
+  }
+]
+
+
