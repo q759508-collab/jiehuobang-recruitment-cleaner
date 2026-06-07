@@ -53,6 +53,11 @@
 下一步动作：
 ```
 
+可直接使用：
+
+- `TRIAL_FEEDBACK_LOG_TEMPLATE.md`
+- `samples/private-samples.README.md`
+
 ## 成功标准
 
 满足任意 2 条，就继续投入下一步：
