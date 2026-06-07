@@ -130,6 +130,7 @@ python scripts/detect_duplicates.py samples/wechat-real-test-inbox.md
 项目使用情况观察见：
 
 - `ADOPTION_METRICS.md`
+- `FIRST_TRIAL_PLAN.md`
 
 版本变化见：
 
