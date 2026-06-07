@@ -56,7 +56,7 @@ python scripts/detect_duplicates.py samples/wechat-real-test-inbox.md
 ## 发布标签
 
 ```text
-v0.1.2-alpha
+v0.1.3-alpha
 ```
 
 ## 隐私和联系方式说明
