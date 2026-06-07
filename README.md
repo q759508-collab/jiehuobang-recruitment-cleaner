@@ -43,6 +43,7 @@ This is a Codex Skill for cleaning Chinese WeChat group recruitment messages int
 - `INSTALL.md`
 - `QUICKSTART.md`
 - `USER_TEST_GUIDE.md`
+- `RELEASE_NOTES_v0.1.3-alpha.md`
 
 在 Codex 中输入：
 
@@ -129,6 +130,10 @@ python scripts/detect_duplicates.py samples/wechat-real-test-inbox.md
 项目使用情况观察见：
 
 - `ADOPTION_METRICS.md`
+
+版本变化见：
+
+- `CHANGELOG.md`
 
 ## 许可证
 
